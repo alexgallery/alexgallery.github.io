@@ -1,0 +1,59 @@
+.currency{
+	padding-bottom: 45px;
+	padding-right: 35px;
+
+}
+
+.currency__description{
+	margin: 0;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.currency__table td,
+.currency__table th{
+	width: 38px;
+	height: 19px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.currency__row-heading th{
+	background: #076E9F;
+	color: #fff;
+	line-height: 14px;
+	font-family: Arial;
+	font-weight: normal;
+}
+
+.currency__row td,{
+	background-color: #C7E9FA;
+	color: #076e9f;
+	font-family: Arial;
+	font-weight: normal;
+	line-height: 14px;
+}
+
+.currency__row--down td{
+	background-color: #B1E1F8;
+}
+
+.currency__arrow-up:before{
+	content: "";
+	background-image: url("../img/spritesheet.png");
+	width: 15px;
+   height: 11px;
+   background-position: -31px -5px;
+   display: inline-block;
+   vertical-align: middle;
+}
+
+.currency__arrow-down:before{
+	content: "";
+	background-image: url("../img/spritesheet.png");
+	width: 15px;
+   height: 11px;
+   background-position: -56px -5px;
+   display: inline-block;
+   vertical-align: middle;
+}

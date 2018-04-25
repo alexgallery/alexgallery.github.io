@@ -1,0 +1,65 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-Facebook {
+    width: 16px;
+    height: 16px;
+    background-position: -5px -5px;
+}
+
+.sprite-arrow-head {
+    width: 15px;
+    height: 11px;
+    background-position: -31px -5px;
+}
+
+.sprite-arrow-head-kopia {
+    width: 15px;
+    height: 11px;
+    background-position: -56px -5px;
+}
+
+.sprite-date {
+    width: 52px;
+    height: 51px;
+    background-position: -31px -26px;
+}
+
+.sprite-date-kopia {
+    width: 52px;
+    height: 51px;
+    background-position: -93px -5px;
+}
+
+.sprite-delicious {
+    width: 16px;
+    height: 16px;
+    background-position: -5px -66px;
+}
+
+.sprite-evernote {
+    width: 14px;
+    height: 17px;
+    background-position: -155px -5px;
+}
+
+.sprite-linked-in {
+    width: 16px;
+    height: 16px;
+    background-position: -93px -66px;
+}
+
+.sprite-pinterest {
+    width: 16px;
+    height: 16px;
+    background-position: -119px -66px;
+}
+
+.sprite-twitter-bird {
+    width: 16px;
+    height: 14px;
+    background-position: -145px -66px;
+}

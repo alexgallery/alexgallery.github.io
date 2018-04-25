@@ -1,0 +1,50 @@
+.related-posts__tittle{
+	margin: 10px 0;
+
+}
+
+
+.related-posts{
+	padding-bottom: 10px;
+	padding-right: 30px;
+	border-bottom: 1px dotted #E7E7E7;
+}
+
+
+.related-posts__item{
+	display: flex;
+	align-items: flex-start;
+	margin-bottom: 10px;
+}
+.related-posts__text{
+	margin: 0;
+	font-family: Arial;
+	font-weight: bold;
+	line-height: 18px;
+	text-transform: uppercase;
+	color: #5c5c5c;
+}
+
+.releated-posts__wrapper{
+	box-sizing: border-box;
+	padding: 5px 0;
+	margin-left: 18px;
+}
+
+.related-posts__counter{
+	font-family: Arial;
+	font-style: italic;
+	line-height: 18px;
+	margin-left: 20px;
+	position: relative;
+	color: #5c5c5c;
+}
+
+.related-posts__counter:before{
+	content: "";
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	background: url("../img/speech bubbles_gray.png") no-repeat;
+	left: -20px;
+}

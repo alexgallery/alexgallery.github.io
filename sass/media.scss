@@ -1,0 +1,165 @@
+
+/*==========  Desktop First  ==========*/
+
+// /* Large Devices, Wide Screens */
+// @media only screen and (max-width : 1200px)
+// 	/**/
+
+
+// /* Medium Devices, Desktops */
+// @media only screen and (max-width : 992px)
+// 	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px){
+ 	.page-header,
+ 	.page-main,
+ 	.map,
+ 	.page-footer {
+ 	width: 100%;
+ }
+	.page-header__subtittle{
+		width: 90%;
+	}
+	.reviews{
+		flex-wrap: wrap;
+		padding: 0 15px;
+		box-sizing: border-box;
+	}
+	.page-main{
+		padding: 0 10px;
+	}
+
+	.related-posts__item{
+		display: -webkit-box;
+	}
+	.advantages{
+		padding-right: 10px;
+		}
+
+	.advantages__text-date{
+		padding-right: 10px;
+	}
+	.advantages__text-date:before{
+		transform: translate(-40%, -50%);
+		ms-transform: translate(-40%, -50%);
+	}
+	.page-footer{
+		justify-content: space-around;
+	}
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px){
+	.main-nav__social-container{
+		right: 5px;
+		top: 20px;
+	}
+	.page-header__tittle{
+		margin-top: 40px;
+	}
+	.reviews__item{
+		margin-top: 5px;
+		margin-left: 20px;
+	}
+	.advantages__tittle{
+		font-size: 28px;
+	}
+	.post__item:first-child{
+		margin-top: 0;
+	}
+	.advantages__button{
+		margin-left: 0;
+	}
+	.releated-posts__wrapper{
+		margin-left: 5px;
+	}
+	.post__item{
+		width: 90%;
+		margin-top: 20px;
+	}
+	.post__new-article{
+		margin-top: 30px;
+	}
+}
+	
+
+
+ /* Custom, iPhone Retina */
+@media only screen and (max-width : 320px){
+	.main-nav{
+		padding: 15px 5px;
+	}
+	.main-nav__social-container{
+		top: 25px;
+	}
+	.page-header__tittle{
+		margin-top: 60px;
+	}
+	.page-header__subtittle{
+		margin-top: 30px;
+	}
+	.reviews__item{
+		display: none;
+	}
+
+	.main-nav__tittle{
+		text-align: left;
+	}
+	.page-main{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.sidebar{
+		width: 90%;
+		max-width: 320px;
+	}
+	.author-info{
+		padding-right: 0;
+		&__tittle{
+			margin-top: 20px;
+			margin-bottom: 5px;
+		}
+	}
+
+	.related-posts{
+		text-align: center;
+		width: 90%;
+		&__item{
+			width: 70%;
+			margin-left: 60px;
+		}
+	}
+	.currency{
+		padding-right: 0;
+		padding-bottom: 20px;
+		text-align: center;
+		&__table{
+			width: 100%;
+		}
+	}
+
+	.advantages__tittle{
+		font-size: 26px;
+	}
+	.advantages__text-date,
+	.advantages__text-author{
+		align-self: flex-start;
+		margin-top: 15px;
+	}
+	.post{
+		margin-left: 0;
+		margin-top: 0;
+	}
+
+	.map__tittle{
+		font-size: 30px;
+		margin-left: 5px;
+	}
+	.page-footer{
+		flex-direction: column;
+	}
+}
+	
+

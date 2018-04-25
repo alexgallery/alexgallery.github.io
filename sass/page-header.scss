@@ -1,0 +1,41 @@
+.page-header{
+  max-width: 1020px;
+  margin: 0 auto;
+  display: block;
+  background: url("../img/main-img.jpg")30% 100% no-repeat;
+  text-align: center;
+  position: relative;
+  min-height: 525px; /* Для сетки */
+}
+
+
+.page-header__tittle{
+  font-family: 'League Gothic';
+  color: $accent2;
+  font-size: 60px;
+  font-weight: normal;
+  text-transform: uppercase;
+  width: 285px;
+  display: inline-block;
+  background: RGBa(234,221,211, 0.8);
+  margin-top: 90px;
+}
+
+.page-header__subtittle{
+  padding: 5px 10px;
+  margin: 0;
+  font-family: 'League Gothic';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: $accent2;
+  display: inline-block;
+  max-width: 777px;
+  background: RGBa(234,221,211, 0.8);
+
+}
+
+
+
+

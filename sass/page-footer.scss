@@ -1,0 +1,26 @@
+.page-footer{
+	max-width: 960px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px dotted #E7E7E7;	
+}
+
+.page-footer-nav{
+	margin-right: -15px;
+}
+
+
+.page-footer__logo{
+	font-family: 'League Gothic', Arial;
+	font-size: 16px;
+	text-transform: uppercase;
+	color: $accent2;
+}
+
+.copyright{
+	text-align: center;
+	color: #787878;
+	text-transform: uppercase;
+}

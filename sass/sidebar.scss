@@ -1,0 +1,27 @@
+.sidebar{
+	max-width: 200px;
+	border-bottom: 1px dotted #E7E7E7;
+}
+
+
+.author-info{
+	border-bottom: 1px dotted #E7E7E7;
+	padding-right: 25px;
+}
+
+.author-info__tittle{
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+
+.author-info__text{
+	font-family: Arial;
+	font-size: 10px;
+	color: #5c5c5c;
+	line-height: 18px;
+	margin: 0;
+	margin-bottom: 15px;
+	span{
+		font-weight: bold;
+	}
+}

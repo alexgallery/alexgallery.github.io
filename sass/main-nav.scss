@@ -1,0 +1,93 @@
+.main-nav{
+	min-height: 60px; /* для сетки */
+	padding: 15px 30px;
+	text-align: center;
+	display: block;
+	background: #fff;
+	position: relative;
+	border-bottom: 2px solid #289DD6;
+}
+
+.main-nav__social-container{
+	display: flex;
+	justify-content: space-between;
+	width: 130px;
+	height: 16px;
+	position: absolute;
+	right: 30px;
+	top: 15px;
+}
+
+.main-nav__social-evernote{
+	background-image: url("../img/spritesheet.png");
+   display: block;
+   width: 14px;
+   height: 17px;
+   background-position: -155px -5px;
+}
+
+.main-nav__social-twitter{
+	background-image: url("../img/spritesheet.png");
+   display: block;
+   width: 16px;
+   height: 14px;
+   background-position: -145px -66px;
+}
+
+.main-nav__social-pinterest{
+	background-image: url("../img/spritesheet.png");
+   display: block;
+   width: 16px;
+   height: 16px;
+   background-position: -119px -66px;
+}
+
+.main-nav__social-linked-in{
+	background-image: url("../img/spritesheet.png");
+   display: block;
+   width: 16px;
+   height: 16px;
+   background-position: -93px -66px;
+}
+
+.main-nav__social-fb{
+	background-image: url("../img/spritesheet.png");
+   display: block;
+   width: 16px;
+   height: 16px;
+   background-position: -5px -5px;
+}
+
+.main-nav__social-delicious{
+	background-image: url("../img/spritesheet.png");
+   display: block;
+   width: 16px;
+   height: 16px;
+   background-position: -5px -66px;
+}
+
+
+
+
+
+
+
+
+
+
+.main-nav__tittle{
+	font-family: 'League Gothic';
+	font-size: 32px;
+	font-weight: normal;
+	text-transform: uppercase;
+	color: $accent2;
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+
+
+.main-nav__list{
+	max-width: 350px;
+	margin: 0 auto;
+}

@@ -1,0 +1,29 @@
+.map{
+	max-width: 1020px;
+   min-height: 270px;
+	margin: 0 auto;
+	overflow: hidden;
+
+
+}
+#map {
+        height: 200px;
+      }
+
+.map__tittle{
+	font-size: 32px;
+	font-family: 'League Gothic';
+	color: #076e9f;
+	font-weight: normal;
+	text-transform: uppercase;
+	height: 36px;
+	margin: 0;
+	display: inline-block;
+	margin-top: 15px;
+	margin-left: 35px;
+	margin-bottom: 15px;
+}
+
+.map__canvas{
+	  box-shadow: 0 0 4px rgba(0, 0, 0, .75);
+}
